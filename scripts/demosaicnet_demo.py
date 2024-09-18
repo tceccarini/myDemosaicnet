@@ -20,7 +20,6 @@ def main(args):
 
   # Load some ground-truth image
   gt = imageio.imread(args.input).astype(np.float32) / 255.0
-  gt = np.array(gt)
 
   h, w, _ = gt.shape
 
